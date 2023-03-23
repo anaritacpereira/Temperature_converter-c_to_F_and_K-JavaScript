@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(153, 153, 153);
+}
+
+#calculadora{
+    background-color: rgb(207, 207, 207);
+    border-radius: 15px;
+    width: 520px;
+    height: 455px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+#ecra{
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    padding: 15px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+#botoes{   
+    background-color: gray;
+    flex-grow: 2;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    margin-top: 15px;
+    height: 350px;
+    
+}
+
+#botoes > button{
+    font-size: 30px;
+    padding: 10px 35px;
+    border-radius: 5px;
+    margin: 15px 5px 10px 5px ;
+    cursor: pointer;
+}
+
+#botoes > button:active{
+    background-color: white;
+}
+
+#saida{
+    background-color: rgb(207, 207, 207);
+    border-radius: 15px;
+    width: 520px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
+}
