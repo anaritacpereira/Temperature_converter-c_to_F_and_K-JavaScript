@@ -1,1 +1,1 @@
-# Temperature-converter---c-to--F-and--K-
+# Temperature-converter ºc to ºF and ºK
